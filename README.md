@@ -16,9 +16,9 @@ cd ...THE-DIR...
 mvn clean
 mvn install # or package
 echo "Run the main() in App.java (defined in the manifest file of the jar)
-java -jar target/strategy-tla-1.0-SNAPSHOT.jar
+java -jar target/java-starter-tla-1.0-SNAPSHOT.jar 
 echo "Run the main() in some other file
-java -cp target/strategy-tla-1.0-SNAPSHOT.jar org.hfdp.tla...
+java -cp target/java-starter-tla-1.0-SNAPSHOT.jar org.hfdp.tla...
 ````
 
 # References
